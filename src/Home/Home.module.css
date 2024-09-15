@@ -1,0 +1,67 @@
+.employeeData {
+    text-align: center;
+}
+.employeeDataTable {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #008e74;
+    color: white;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  td {
+    text-align: left;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    background-color: #008e74;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .pagination button:hover {
+    background-color: #006f5a;
+  }
+  
+  .pagination p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
